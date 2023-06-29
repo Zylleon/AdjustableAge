@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ModMetaData>
+  <name>Adjustable Age</name>
+  <author>Zylle</author>
+  <packageId>zylle.AdjustableAge</packageId>
+  <supportedVersions>
+	<li>1.4</li>
+  </supportedVersions>
+  <description>Adjustable Age
+
+Lets you specify an age range for newly spawned pawns.
+
+Age range applies only to humanoids. Does not apply to newborns.
+
+Allowed ages can be changed mid-game, but will only apply to new pawns. Existing pawns, including AI pawns, will age at the normal rate.
+
+  -----
+
+Discord: https://discord.gg/4EFv76C
+ko-fi: https://ko-fi.com/zylleon
+My other mods: https://steamcommunity.com/profiles/76561197998830956/myworkshopfiles/?appid=294100
+</description>
+</ModMetaData>

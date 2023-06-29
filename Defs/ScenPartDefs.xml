@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+  <!--
+  <ScenPartDef>
+    <defName>ZAge_AllPawns_Age</defName>
+    <label>allowed age range for ALL pawns</label>
+    <scenPartClass>AdjustableAge.ScenPart_AllPawns_Age</scenPartClass>
+    <category>PlayerPawnFilter</category>
+    <selectionWeight>1.0</selectionWeight>
+    <summaryPriority>475</summaryPriority>
+    <maxUses>1</maxUses>
+  </ScenPartDef>
+  -->
+</Defs>
