@@ -47,7 +47,14 @@ namespace AdjustableAge
             if (settings.allowedAges.min < 13)
             {
                 GUI.color = new Color(255, 180, 0);
-                listingStandard.Label("ZAA_ageWarning".Translate());
+                listingStandard.Label("ZAA_ageWarningAdult".Translate());
+                GUI.color = Color.white;
+            }
+            if (settings.allowedAges.min < 3)
+            {
+                listingStandard.Gap();
+                GUI.color = new Color(255, 180, 0);
+                listingStandard.Label("ZAA_ageWarningBaby".Translate());
                 GUI.color = Color.white;
             }
 

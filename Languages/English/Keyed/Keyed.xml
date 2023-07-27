@@ -4,6 +4,7 @@
   <!-- Settings -->
   <ZAA_ModName>Adjustable Age</ZAA_ModName>
   <ZAA_ageLabel>Allowed ages for new pawns</ZAA_ageLabel>
-  <ZAA_ageWarning>WARNING: Minimum allowed age is under 13. Make sure you have BioTech or a baby mod installed!</ZAA_ageWarning>
-  
+  <ZAA_ageWarningAdult>WARNING: Minimum allowed age is under 13. Make sure you have BioTech or a baby mod installed!</ZAA_ageWarningAdult>
+  <ZAA_ageWarningBaby>WARNING: Minimum allowed age is under 3. Some pawns will not be able to walk!</ZAA_ageWarningBaby>
+	
 </LanguageData>

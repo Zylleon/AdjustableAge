@@ -30,7 +30,7 @@ namespace AdjustableAge
             {
                 IntRange ages = LoadedModManager.GetMod<AgeMod>().GetSettings<AgeSettings>().allowedAges;
 
-                request.FixedBiologicalAge = Rand.Range(ages.min, ages.max);
+                request.FixedBiologicalAge = Rand.Range((float)ages.min, 0.8f+(float)ages.max);
 
             }
 
