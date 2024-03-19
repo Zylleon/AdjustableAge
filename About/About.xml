@@ -15,6 +15,7 @@
 	<li>1.4</li>
 	<li>1.5</li>
   </supportedVersions>
+	<modIconPath IgnoreIfNoMatchingField="True">GUI/ZModLogo</modIconPath>
   <description>
 Lets you specify an age range for newly spawned pawns. Play on a planet of toddlers, or one of geriatrics!
 
