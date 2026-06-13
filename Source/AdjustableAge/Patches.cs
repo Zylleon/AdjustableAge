@@ -28,10 +28,22 @@ namespace AdjustableAge
 
             if (pawn.RaceProps.Humanlike && !request.AllowedDevelopmentalStages.Newborn())
             {
+                bool rollAge = true;
                 IntRange ages = LoadedModManager.GetMod<AgeMod>().GetSettings<AgeSettings>().allowedAges;
 
-                request.FixedBiologicalAge = Rand.Range((float)ages.min, 0.8f+(float)ages.max);
+                if (request.FixedBiologicalAge.HasValue)
+                {
+                    if (request.FixedBiologicalAge.Value > ages.min && request.FixedBiologicalAge.Value < ages.max + 0.8f)
+                    {
+                        rollAge = false;
+                    }
+                }
 
+                if (rollAge)
+                {
+                    request.FixedBiologicalAge = Rand.Range((float)ages.min, 0.8f + (float)ages.max);
+
+                }
             }
 
             return true;
